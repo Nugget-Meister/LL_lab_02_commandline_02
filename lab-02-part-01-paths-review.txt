@@ -108,7 +108,7 @@ popd
 14. How would you show all of the files (including hidden ones) with detailed (long) information that are on you're Desktop if you're in your home directory?  Write your command below.
 ----------
 
-ls Desktop -al
+ls -al Desktop
 
 
 ==========
@@ -122,4 +122,11 @@ f. Remove that folder.
 g. Show all of the commands that you used to complete the above exercise.  (for example, how did you determine which folder in my-stuff was the most recent?).  Use the command: history ... to help you remember what you did!  Paste the commands below.
 ----------
 
-mkdir /Users/student/Desktop/my-stuff/"archived" "current"
+
+
+mkdir -p /Users/student/Desktop/my-stuff/archived
+mkdir /Users/student/Desktop/my-stuff/current
+hostname
+mkdir /Users/student/Desktop/my-stuff/v314-ent-005.local
+ls -alt /Users/student/Desktop/my-stuff
+rmdir /Users/student/Desktop/my-stuff/v314-ent-005.local
